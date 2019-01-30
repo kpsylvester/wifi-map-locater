@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Wifi locater</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  
+  <body>
+   
+   <div class="searchbox">
+       <a id="menu">☰</a><input placeholder="search wifi locater" data-bind="textInput:filter" />
+   </div>
+    <div class="listbox nav">
+        <ul data-bind="foreach: locationlist">
+          <li data-bind="text: title, click: $parent.setmarker"></li>
+        </ul>
+      </div>
+    <div id="map"></div>   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmwdLp9ZQpYAqi4bt1Bc_VPQWKdnxmnAY&callback=initMap">
+    </script>
+    
+  </body>
+  
+</html>
