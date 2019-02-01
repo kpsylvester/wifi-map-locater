@@ -9,3 +9,6 @@ I hope you enjoy using the map. I tried to make the design clean and minimal whi
 
 
 visit here - https://kpsylvester.github.io/wifi-map-locater/
+
+## How to run locally
+Clone or download this repo and simply open the index.html file and enjoy! ^_^
