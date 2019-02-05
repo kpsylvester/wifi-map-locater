@@ -87,3 +87,11 @@ color: #525454;
     transition: transform 0.3s ease;
   }
 }
+
+@media screen and (max-width:680px){
+    #menu{
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
